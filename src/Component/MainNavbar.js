@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 
 function MainNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           {/* <img
@@ -26,8 +26,8 @@ function MainNavbar() {
             <Nav.Link className="nav-link" href="#home">Courses</Nav.Link>
             <Nav.Link className="nav-link" href="#link">About Us</Nav.Link>
             <Nav.Link className="nav-link" href="#link">Contact</Nav.Link>
-            <Nav.Link className="nav-button" href="#link">
-              <Button>Register</Button>
+            <Nav.Link className="nav-button-box" href="#link">
+              <Button className="nav-button" >Register</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
