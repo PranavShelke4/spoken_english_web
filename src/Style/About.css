@@ -1,0 +1,70 @@
+.about-us {
+  padding: 5% 0;
+  color: white;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+
+.about-us span {
+  font-size: 4rem;
+  font-weight: 700 !important;
+  color: #52ff00;
+}
+
+.about-us-boxs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  margin-top: 3%;
+}
+
+.about-us-box-1, .about-us-box-2 {
+  width: 50%;
+}
+
+
+.about-us-box-1 img {
+  width: 30rem;
+}
+
+.about-us-box-2 p {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .about-us-boxs {
+        flex-direction: column;
+    }
+
+    .about-us-box-1, .about-us-box-2 {
+        width: 100%;
+    }
+
+    .about-us-box-1 img {
+        width: 100%;
+    }
+
+    .about-us-box-2 p {
+        margin: 2% 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: justify;
+        padding: 2% 5%;
+    }
+
+    .about-us h1, .about-us span {
+        font-size: 3rem;
+    }
+}
