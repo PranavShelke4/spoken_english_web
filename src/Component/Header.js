@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/header.css";
+import "../Style/Header.css";
 import Container from "react-bootstrap/Container";
 import img1 from "../assets/img1.png";
 
