@@ -19,13 +19,14 @@
 
 .nav-button-box {
   position: relative;
-  left: 80%;
+  left: 55%;
 }
 
 .nav-button{
   background-color: transparent !important;
   font-size: 1.3rem !important;
   border: solid 2px rgba(82, 255, 0, 1) !important;
+  width: 10rem;
 }
 
 .nav-button:hover {
@@ -34,17 +35,31 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar{
+    background-color: white !important;
+    width: 100%;
+  }
+
   .nav-links {
     margin-left: 0%;
+    margin-top: 3%;
+    border-top: #1C1E33 solid 3px !important;
   }
   .nav-link {
     margin: 0;
     padding: 3%;
     border-bottom: solid 1px #807f7f !important;
+    color: #1C1E33 !important;
   }
   .nav-button-box {
     position: relative;
     left: 0;
     border-bottom: none !important;
+  }
+  .nav-button{
+    color: #1C1E33 !important;
+    background-color: rgba(82, 255, 0, 1) !important;
+    padding: 0.5% !important;
+    font-size: 1.2rem !important;
   }
 }
