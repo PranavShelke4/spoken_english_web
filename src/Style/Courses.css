@@ -73,6 +73,8 @@
 @media screen and (max-width: 768px) {
   .course-boxs {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .course-box {
